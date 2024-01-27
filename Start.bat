@@ -1,4 +1,6 @@
 @echo off
+color str
+
 echo.
 echo ===============================
 echo =      1-Abrir Twich          =            
