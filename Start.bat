@@ -11,8 +11,8 @@ echo.
 echo.
 set /p opcion = IntroduscaUnaOpcion:
 
-if $opcion$ == 1 goto op1
-if %opcion% == 2 goto op2
+if $opcion$ equ 1 goto op1
+if %opcion% equ 2 goto op2
 
 :op1
 start https://www.twitch.tv/directory
