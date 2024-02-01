@@ -12,11 +12,11 @@ echo.
 echo.
 set /p opcion= IntroduscaUnaOpcion:
 
-if  %opcion% EQU 1(
-    start https://www.twitch.tv/directory
-)
-if %opcion% EQU 2(
-    start https://www.youtube.com
-)
+if %opcion% EQU 1 goto 1
+if %opcion% EQU 2 goto 2
+:1
+start https://www.twitch.tv/directory
+:2
+start https://www.youtube.com
 
 goto st
