@@ -12,11 +12,6 @@ echo.
 echo.
 set /p opcion=IntroduscaUnaOpcion:
 
-IF %opcion%==1(goto 1)
-IF %opcion%==2(goto 2)
-:1
-echo 1
-:2
-echo 2
+IF %opcion%==1(echo 2) ELSE (echo 2)
 
 goto st
