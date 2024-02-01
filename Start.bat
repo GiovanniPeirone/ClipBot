@@ -1,5 +1,6 @@
 @echo off
 title ClipBot
+:st
 cls
 color 0f 
 echo.
@@ -11,11 +12,11 @@ echo.
 echo.
 set /p opcion = IntroduscaUnaOpcion:
 
-if %opcion% equ 1 (
+if %opcion% EQU 1 (
     start https://www.twitch.tv/directory
 )
-if %opcion% equ 2 goto op2 (
+if %opcion% EQU 2 (
     start https://www.youtube.com
 )
 
-
+goto st
