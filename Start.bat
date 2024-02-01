@@ -1,6 +1,7 @@
 @echo off
 title ClipBot
 :start
+cls
 color 0f 
 echo.
 echo ===============================
@@ -11,6 +12,12 @@ echo.
 echo.
 set /p opcion = IntroduscaUnaOpcion:
 
+if $opcion$ equ 1 goto op1
+if %opcion% equ 2 goto op2
+
+:op1
 start https://www.twitch.tv/directory
+:op2
+start https://www.youtube.com
 
 goto start 
