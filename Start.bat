@@ -1,6 +1,5 @@
 @echo off
 title ClipBot
-:start
 cls
 color 0f 
 echo.
@@ -20,4 +19,3 @@ start https://www.twitch.tv/directory
 :op2
 start https://www.youtube.com
 
-goto start 
