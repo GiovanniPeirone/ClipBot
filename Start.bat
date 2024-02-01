@@ -1,7 +1,7 @@
 @echo off
 title ClipBot
-:st
 cls
+:st
 color 0f 
 echo.
 echo ===============================
